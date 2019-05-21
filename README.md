@@ -27,7 +27,20 @@ done
 # Tools
 
 ## IAM Probing Tools
+### AWS Escalate from Rhino Security Labs
 * https://github.com/RhinoSecurityLabs/Security-Research/blob/master/tools/aws-pentest-tools/aws_escalate.py
 * Requires the use of access keys, secret keys, and session tokens. Does not support PROFILES
 
 `python3.7 aws_escalate.py --all-users --access-key-id $ACCESS_KEY--secret-key $SECRET_KEY --session-token $TOKEN`
+
+### PMapper from NCCGroup
+* https://github.com/nccgroup/PMapper
+* Supports PROFILES.
+* Has a standard query for to search for privilege escalation paths. 
+* Catches some things that aws_escalate misses, and vice versa.
+
+```
+python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE graph
+python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE visualize
+python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *"
+```
