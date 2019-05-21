@@ -54,3 +54,8 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE graph
 python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE visualize
 python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *"
 ```
+
+
+# Azure
+## Azure AD Entitlement Management
+* https://docs.microsoft.com/en-us/azure/active-directory/governance/entitlement-management-overview
