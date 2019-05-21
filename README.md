@@ -11,6 +11,11 @@ Collection of scripts, snippets, etc, that I find useful
 `{print substr($2, 1, length($2)-1)}`
 
 # AWS
+## Security Pillar - AWS Well-Architected Framework		
+* https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf
+## AWS Security Checklist	
+* https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Checklist.pdf
+
 ## Generate an IAM Credentials Report
 ```
 aws --profile PROFILE iam generate-credential-report
