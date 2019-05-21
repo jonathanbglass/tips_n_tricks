@@ -6,11 +6,21 @@ Collection of scripts, snippets, etc, that I find useful
 * removing the last character in field 2 
 `{print substr($2, 1, length($2)-1)}`
 
-# Generate an IAM Credentials Report
+# AWS
+## Generate an IAM Credentials Report
 ```
 aws --profile PROFILE iam generate-credential-report
 aws --profile PROFILE iam get-credential-report > PROFILE_creds_rep.json
 jq '.Content' -r PROFILE_creds_rep.json | base64 -D > PROFILE_cred_report.csv
+```
+
+## Credential Report Headers
+`
+user,arn,user_creation_time,password_enabled,password_last_used,password_last_changed,password_next_rotation,mfa_active,access_key_1_active,access_key_1_last_rotated,access_key_1_last_used_date,access_key_1_last_used_region,access_key_1_last_used_service,access_key_2_active,access_key_2_last_rotated,access_key_2_last_used_date,access_key_2_last_used_region,access_key_2_last_used_service,cert_1_active,cert_1_last_rotated,cert_2_active,cert_2_last_rotated`
+
+```
+cut -f 1,10,11,12,13,14,15,16 -d, PROFILE_cred_report.csv | head -1
+user,access_key_1_last_rotated,access_key_1_last_used_date,access_key_1_last_used_region,access_key_1_last_used_service,access_key_2_active,access_key_2_last_rotated,access_key_2_last_used_date
 ```
 
 # Parallelizing Scripts
