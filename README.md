@@ -1,6 +1,10 @@
 # tips_n_tricks
 Collection of scripts, snippets, etc, that I find useful
 
+# Open Source Security Tool Lists
+* https://medium.com/@StuHirstInfoSec/the-aws-security-open-source-toolkit-eb3e92566eaf
+* https://github.com/stuhirst/awssecurity/blob/master/arsenal.md
+* https://github.com/toniblyx/my-arsenal-of-aws-security-tools
 
 # awk
 * removing the last character in field 2 
