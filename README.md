@@ -6,6 +6,12 @@ Collection of scripts, snippets, etc, that I find useful
 * https://github.com/stuhirst/awssecurity/blob/master/arsenal.md
 * https://github.com/toniblyx/my-arsenal-of-aws-security-tools
 
+## AWSLogs
+awslogs is a simple command line tool for querying groups, streams and events from Amazon CloudWatch logs.
+One of the most powerful features is to query events from several streams and consume them (ordered) in pseudo-realtime using your favourite tools such as grep:
+
+* https://github.com/jorgebastida/awslogs
+
 # awk
 * removing the last character in field 2 
 `{print substr($2, 1, length($2)-1)}`
