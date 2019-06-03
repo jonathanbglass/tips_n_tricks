@@ -11,6 +11,7 @@ awslogs is a simple command line tool for querying groups, streams and events fr
 One of the most powerful features is to query events from several streams and consume them (ordered) in pseudo-realtime using your favourite tools such as grep:
 
 * https://github.com/jorgebastida/awslogs
+`awslogs groups --aws-region us-west-2 --profile profile_name`
 
 # awk
 * removing the last character in field 2 
