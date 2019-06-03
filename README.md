@@ -19,7 +19,7 @@ One of the most powerful features is to query events from several streams and co
 
 `{print substr($2, 1, length($2)-1)}`
 
-# Checking a field for a value
+* Checking a field for a value
 
 `laskd`
 
