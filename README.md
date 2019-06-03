@@ -16,7 +16,13 @@ One of the most powerful features is to query events from several streams and co
 
 # awk
 * removing the last character in field 2 
+
 `{print substr($2, 1, length($2)-1)}`
+
+# Checking a field for a value
+
+`laskd`
+
 
 # AWS
 ## Security Pillar - AWS Well-Architected Framework		
