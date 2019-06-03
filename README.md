@@ -21,7 +21,7 @@ One of the most powerful features is to query events from several streams and co
 
 * Checking a field for a value
 
-`laskd`
+`awk '$9 ~ 400 { print $0;}'`
 
 
 # AWS
