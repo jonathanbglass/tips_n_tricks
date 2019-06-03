@@ -15,13 +15,8 @@ One of the most powerful features is to query events from several streams and co
 `awslogs groups --aws-region us-west-2 --profile profile_name`
 
 # awk
-* removing the last character in field 2 
-
-`{print substr($2, 1, length($2)-1)}`
-
-* Checking a field for a value
-
-`awk '$9 ~ 400 { print $0;}'`
+* removing the last character in field 2 `{print substr($2, 1, length($2)-1)}`
+* Checking a field for a value `awk '$9 ~ 400 { print $0;}'`
 
 
 # AWS
