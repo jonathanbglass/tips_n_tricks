@@ -61,6 +61,11 @@ done
 
 `python3.7 aws_escalate.py --all-users --access-key-id $ACCESS_KEY--secret-key $SECRET_KEY --session-token $TOKEN`
 
+### SkyArk from CyberArk
+* https://www.youtube.com/watch?v=mK62I1BNmXs
+* https://github.com/cyberark/SkyArk
+* Requires PowerShell
+
 ### PMapper from NCCGroup
 * https://github.com/nccgroup/PMapper
 * Supports PROFILES.
