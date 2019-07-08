@@ -5,6 +5,7 @@ Collection of scripts, snippets, etc, that I find useful
 * https://medium.com/@StuHirstInfoSec/the-aws-security-open-source-toolkit-eb3e92566eaf
 * https://github.com/stuhirst/awssecurity/blob/master/arsenal.md
 * https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+* https://github.com/turnerlabs/aws-guardduty-enterprise
 
 ## AWSLogs
 awslogs is a simple command line tool for querying groups, streams and events from Amazon CloudWatch logs.
