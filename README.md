@@ -91,3 +91,8 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *
 # Benchmark Tools
 ## S3 Benchmarking
 * https://github.com/wasabi-tech/s3-benchmark
+
+
+# PenTesting / Offensive Security Tools
+## MitM via Modlishka
+* https://github.com/drk1wi/Modlishka
