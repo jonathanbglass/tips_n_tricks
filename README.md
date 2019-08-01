@@ -7,6 +7,11 @@ Collection of scripts, snippets, etc, that I find useful
 * https://github.com/toniblyx/my-arsenal-of-aws-security-tools
 * https://github.com/turnerlabs/aws-guardduty-enterprise
 * https://github.com/mitre-attack
+* https://github.com/duo-labs/cloudmapper (CloudMapper helps you analyze your Amazon Web Services (AWS) environments.)
+* https://github.com/dowjones/hammer (Dow Jones Hammer : Protect the cloud with the power of the cloud(AWS))
+
+## Cloud mapping
+* https://github.com/IntelLabsEurope/landscaper/
 
 ## AWSLogs
 awslogs is a simple command line tool for querying groups, streams and events from Amazon CloudWatch logs.
@@ -97,3 +102,15 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *
 # PenTesting / Offensive Security Tools
 ## MitM via Modlishka
 * https://github.com/drk1wi/Modlishka
+
+## BloodHoundAD
+* https://github.com/BloodHoundAD/BloodHound (BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment. Attackers can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible to quickly identify. Defenders can use BloodHound to identify and eliminate those same attack paths. Both blue and red teams can use BloodHound to easily gain a deeper understanding of privilege relationships in an Active Directory environment.)
+* https://github.com/vysecurity/ANGRYPUPPY
+
+
+# GCP
+## https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/asset-inventory
+
+## Cartography
+* https://github.com/lyft/cartography/
+* https://github.com/lyft/cartography/blob/master/docs/writing-analysis-jobs.md
