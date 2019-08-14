@@ -114,3 +114,8 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *
 ## Cartography
 * https://github.com/lyft/cartography/
 * https://github.com/lyft/cartography/blob/master/docs/writing-analysis-jobs.md
+
+
+# MacOS
+## Bash Tricks
+* sed -i.bak $'s/\t/  /' file.txt
