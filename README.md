@@ -124,4 +124,4 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *
 
 # Windows Security
 ## ADS Tricks
-* ![image](https://user-images.githubusercontent.com/19599038/205194139-9da52708-9382-45cc-af0f-5ed798d2b750.png)
+* https://gist.github.com/api0cradle/cdd2d0d0ec9abb686f0e89306e277b8f
