@@ -120,3 +120,8 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *
 # MacOS
 ## Bash Tricks
 * sed -i.bak $'s/\t/  /' file.txt
+
+
+# Windows Security
+## ADS Tricks
+* ![image](https://user-images.githubusercontent.com/19599038/205194139-9da52708-9382-45cc-af0f-5ed798d2b750.png)
