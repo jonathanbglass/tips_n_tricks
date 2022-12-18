@@ -114,6 +114,8 @@ python3.7 ~/GitHub/PMapper/pmapper.py --profile PROFILE query "preset priv_esc *
 ## inetsim
 * https://www.inetsim.org/
 
+## Malware Zoo
+* https://github.com/ytisf/theZoo
 
 # GCP
 ## https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/asset-inventory
