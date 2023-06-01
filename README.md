@@ -66,6 +66,9 @@ done
 
 # Tools
 
+## SIEM Tools
+* Panther SIEM rules - https://github.com/panther-labs/panther-analysis/tree/master/rules
+
 ## IAM Probing Tools
 ### AWS Escalate from Rhino Security Labs
 * https://github.com/RhinoSecurityLabs/Security-Research/blob/master/tools/aws-pentest-tools/aws_escalate.py
